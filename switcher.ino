@@ -191,13 +191,13 @@ void loop() {
           lcd.setCursor(0, 0);
           lcd.print("Valid ");
           lcd.setCursor(0, 1);
-          lcd.print("Relay 3"):
+          lcd.print("Relay 3");
           digitalWrite(RELAY_R3, !digitalRead(RELAY_R3));
           break;
         }
       case 4:
         {
-          lcd.setCursor(0, 0):
+          lcd.setCursor(0, 0);
           lcd.print("Valid ");
           lcd.setCursor(0, 1);
           lcd.print("Relay 4");
